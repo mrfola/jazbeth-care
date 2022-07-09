@@ -1,0 +1,50 @@
+.singleSlide
+    max-width: 585px
+    padding: 50px 40px
+    // border: 1px solid red
+
+    .nameImageTitle
+        display: flex
+        gap: 35px
+        align-items: center
+        position: relative
+
+        img.displayPicture
+            width: clamp(58px, 8vw ,103px)
+            height: auto
+            
+        img.quotationMark
+            position: absolute
+            width: 40.19px
+            height: auto
+            top: 0
+            right: 0
+
+        .nameImage
+            p.name
+                text-align: left
+                font-size: clamp(1.25rem, 2.5vw, 2rem)
+                font-weight: 700
+                color: #191C27
+
+            p.title
+                font-size: clamp(0.625rem, 2.5vw, 1rem)
+                text-align: left
+                color: rgba(224, 224, 224, 1)
+                margin-top: 8px
+
+    .testimonial
+        margin-top: 40px
+        font-size: clamp(0.875rem, 1.75vw, 1.25rem)
+        line-height: 150%
+        text-align: left
+
+@media screen and (max-width: 500px) 
+    .singleSlide
+        .nameImageTitle
+            gap: 20px            
+            img.quotationMark 
+                position: relative
+                width: 23.01px
+                height: auto
+    

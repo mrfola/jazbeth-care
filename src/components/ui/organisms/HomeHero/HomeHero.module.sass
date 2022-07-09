@@ -1,0 +1,87 @@
+.homeHero
+    padding: 0px 0px 0px 8.3%
+    display: flex
+    position: relative
+    height: 83vh 
+    align-items: center
+    // justify-content: space-between
+
+    .contentContainer
+        z-index: 2
+        height: 100%
+        display: flex
+        align-items: center
+        // background: blue
+
+        .content
+            padding: 0px 30px
+            width: 100%
+            max-width: 482px
+            z-index: 1
+            content: red
+
+            p
+                font-size: clamp(0.875rem, 1.75vw, 1.25rem)
+                margin-top: 15px
+                line-height: 135%
+                
+
+    .middleImg
+        z-index: 0
+        display: flex
+        height: 83vh
+        width: 68.3%
+        position: relative
+
+        .firstTriangle
+            position: absolute
+            z-index: 1
+            top: 0px
+            height: 0px
+            border-bottom: 83vh solid transparent 
+            border-left: 48vh solid white
+
+        .lastTriangle
+            // display: none
+            width: 0px
+            height: 0px
+            border-bottom: 83vh solid white
+            border-left: 48vh solid transparent
+
+        img
+            height: 100% 
+            width: 100%
+            margin-right: -48vh
+
+
+    .cornerImg
+        // display: none
+        z-index: 1
+        position: absolute
+        right: 0
+        bottom: 0
+        height: 74.7vh//90% of 83vh (which is .homeHero height)
+        width: auto
+        max-height: 100%
+        // background: blue
+
+        img
+            height: 100% 
+            width: 100%
+
+@media screen and (max-width: 760px) 
+    .homeHero  
+        .contentContainer
+            .content
+                padding: 0px
+
+        .middleImg
+            display: none
+            
+        .cornerImg
+            position: relative
+            top: 0
+            right: 0
+            // height: 74.7vh//90% of 83vh (which is .homeHero height)
+            // width: auto
+            // max-height: 100%

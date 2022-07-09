@@ -1,0 +1,145 @@
+.header
+    display: flex
+    justify-content: space-between
+    padding: 12px 8.3%
+    align-items: center
+
+    .logo
+        img
+            width: 76.45px
+            height: auto
+    .desktopNav
+        nav
+            ul
+                display: flex
+                gap: 50px
+
+                li
+                    a
+                        color: black
+                        text-decoration: none
+                        font-weight: 500
+
+                li.active
+                    a
+                        color: rgba(137, 14, 79, 1)
+
+    .mobileNav
+        display: none
+
+@media screen and (max-width: 900px) 
+
+    .header
+        // .logo
+        //     width: 100%
+        //     height: auto
+
+        .desktopNav
+            display: none!important
+        
+        .mobileNav
+            display: flex!important
+            justify-content: flex-end
+            cursor: pointer
+
+            .hamburger
+                width: 15px
+                height: 1.5px
+                background:  #191C27
+                // border-radius: 25px
+                transition: all .5s ease-in-out
+    
+
+            .hamburger::before, .hamburger::after
+                position: absolute
+                content: ""
+                width: 15px
+                height: 1.5px
+                background:  #191C27
+                // border-radius: 25px
+                transition: all .5s ease-in-out
+            
+
+            .hamburger::before
+                transform: translateY(-5px)
+    
+            .hamburger::after
+                transform: translateY(5px)
+    
+        /* Mobile menu navigation animation*/
+        .mobileNav.open 
+            .hamburger
+                transform: translateX(-50px)
+                background: transparent
+    
+            .hamburger::before
+                transform: rotate(45deg) translate(35px, -35px)
+
+            .hamburger::after
+                transform: rotate(-45deg) translate(35px, 35px)
+
+        /* Mobile menu modal */
+        .mobileMenuModal::backdrop
+            background-color: rgba(0,0,0,0.6)
+
+        .mobileMenuModal 
+            background-color: white
+            width: 80vw
+            max-width: 500px
+            border-radius: 5px
+            padding: 20px 0
+            animation: slide-up .5s forwards, fade-in 500ms forwards
+            border: 0px
+
+            .closeIcon
+                position: absolute
+                top: 10px
+                right: 10px
+                float:right
+                cursor: pointer
+                border-radius: 4px
+                background: rgba(125, 125, 125, 0.15)
+                width: 30px
+                height: 30px
+                padding: 10px
+
+            .closeIcon::before, .closeIcon::after
+                position: absolute
+                content: ""
+                width: 18px
+                height: 1.5px
+                background: #7D7D7D
+                border-radius: 25px
+                transition: all .5s ease-in-out
+
+            .closeIcon::before
+                transform: rotate(45deg) translate(-1px, 6px)
+
+            .closeIcon::after
+                transform: rotate(-45deg) translate(-6px, -1px)
+
+
+            .mobileLinks 
+                display: flex
+                flex-direction: column
+                flex-wrap: nowrap
+                align-items: center
+                justify-content: center
+                padding: 10px 0 10px 0
+
+                li
+                    padding: 10px 0
+
+                    a
+                        text-decoration: none
+                        color: #890E4F
+
+        
+        @keyframes slide-up 
+            0% 
+                transform: translateY(100%)
+            
+            100% 
+                transform: translateY(0%)
+            
+        

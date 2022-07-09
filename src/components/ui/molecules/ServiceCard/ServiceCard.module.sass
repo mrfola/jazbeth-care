@@ -1,0 +1,36 @@
+.serviceCard
+    max-width: 285px
+    padding: 34px 33px
+
+    p.title
+        font-size: clamp(1.25rem, 3vw, 2rem)
+        line-height: 140%
+        color: #191C27
+        font-weight: 700
+
+    p.description
+        font-weight: 500
+        color: #191C27
+        font-size: clamp(0.875rem, 2.5vw, 1rem)
+        line-height: 150%
+        margin: 15px 0px 30px 0px
+
+    a
+        text-decoration: none
+        button
+            visibility: hidden
+            pointer-events: none
+            padding: 10px 30px
+            width: 100%
+            background-color: #890E4F
+            border-radius: 5px
+            border: 0
+            color: white
+            font-size: 20.22px 
+
+.serviceCard:hover
+    box-shadow: 0px 10px 20px rgba(135, 14, 79, 0.15)
+    button
+        visibility: visible
+        pointer-events: auto
+        cursor: pointer

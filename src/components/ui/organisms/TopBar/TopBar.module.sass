@@ -1,0 +1,48 @@
+.topBar
+    display: flex
+    background-color: rgba(137, 14, 79, 1)
+    justify-content: space-between
+    padding: 15px 8.3%
+    align-items: center
+
+    .contactIcons
+        display: flex
+        gap: 30px
+
+        .contactIcon
+            display: flex
+            gap: 6px
+            align-items: center
+
+            span
+                color: white
+            
+            img#whatsappIcon
+                height: 16.67px
+                width: auto
+
+            img#emailIcon
+                height: 13.33px
+                width: auto
+
+            img#locationIcon
+                height: 17.5px
+                width: auto
+
+    
+    .socialMediaIcons
+        display: flex
+        gap: 15px
+
+        img
+            width: 20px
+            height: 20px
+
+@media screen and (max-width: 700px) 
+    .topBar
+        .socialMediaIcons
+            display: none
+
+@media screen and (max-width: 500px) 
+    .topBar
+        display: none

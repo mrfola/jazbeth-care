@@ -1,0 +1,113 @@
+.testimonialsNew
+    display: flex
+    min-height: 100vh
+
+    .images
+        width: 37%
+        // background: red
+        background: white
+        position: relative
+
+        .cornerImage
+            z-index: 2
+            img
+                z-index: inherit
+                position: absolute
+                height: 62.68vh
+                width: auto
+                bottom: 0
+                left: 0
+
+        .innerImage
+            width: 100%
+            // position: relative
+            .firstTriangle
+                position: absolute
+                // width: 70vh
+                // height: 41vh
+                border-right: 41vh solid transparent
+                border-bottom: 70vh solid white
+                // background: black
+                z-index: 1
+                bottom: 0
+                left: 0
+
+            .secondTriangle
+                position: absolute
+                // width: 39.61vh
+                // height: 67.63vh
+                border-right: 52.72vh solid white
+                border-bottom: 100vh solid transparent
+                // background: black
+                z-index: 1
+                top: 0
+                right: -5vw 
+            img
+                z-index: 0
+                position: absolute
+                height: 100%
+                width: auto
+                // height: 62.68vh
+                // width: auto
+                bottom: 0
+                left: 0
+            
+
+    .content
+        width: 63%
+        // background: blue
+        background: white
+        padding: 150px 8.3% 150px 17.63%
+
+        h3
+            text-align: left
+        h2
+            text-align: left
+       
+        .swiperNavControls
+            margin-top: 63px
+            margin-bottom: 32px
+            display: flex
+            justify-content: flex-end
+            gap: 33.13px
+
+            .swiperNavControl
+                font-size: 80px
+                font-weight: 400
+                color: #890E4F
+                cursor: pointer
+
+        #mobileNavControls
+            display: none
+            
+@media screen and (max-width: 1000px) 
+    .testimonialsNew
+        .images
+            display: none
+
+        .content
+            width: 100%
+            padding: 50px 5%
+
+            h3
+                text-align: center
+                
+            h2
+                text-align: center
+                margin-bottom: 50px
+
+            .swiperNavControls
+                margin-top: 52px
+                margin-bottom: 0px
+                display: flex
+                justify-content: center
+                gap: 20px
+
+                .swiperNavControl
+                    font-size: 50px
+            
+            #mobileNavControls
+                display: flex
+
+            #desktopNavControls
+                display: none
