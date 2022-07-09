@@ -5,7 +5,7 @@ import { useRef, useCallback, useEffect, useState } from "react";
 
 const Header = () => 
 {
-    const path = document.location.pathname;
+    const [path, setPath] = useState(document.location.pathname)
 
     const modalRef = useRef(null);
 
@@ -26,6 +26,8 @@ const Header = () =>
 
     useEffect(() => 
     {
+        // setPath(document.location.pathname);
+
         const modalNode = modalRef.current;
 
         (mobileMenuOpen) ? modalNode.showModal() : modalNode.close();
@@ -45,9 +47,9 @@ const Header = () =>
                 <nav>
                     <ul>
                         <li className={path == "/" ? styles.active : ""}><Link to="/">Home</Link></li>
-                        <li className={path == "/services" ? styles.active : ""}><Link to="/">Services</Link></li>
-                        <li className={path == "/about" ? styles.active : ""}><Link to="/">About Us</Link></li>
-                        <li className={path == "/contact" ? styles.active : ""}><Link to="/">Contact Us</Link></li>
+                        <li className={path == "/services" ? styles.active : ""}><Link to="/services">Services</Link></li>
+                        <li className={path == "/about" ? styles.active : ""}><Link to="/about">About Us</Link></li>
+                        <li className={path == "/contact" ? styles.active : ""}><Link to="/contact">Contact Us</Link></li>
                     </ul>
                 </nav>
             </div>
@@ -63,10 +65,10 @@ const Header = () =>
                 <div className={styles.modalChildren}>
                     <div className={styles.mobileLinks}>
                         <ul>
-                            <li className={path == "/" ? styles.active: ""}><Link to="/">Home</Link></li>
-                            <li  className={path == "/about" ? styles.active: ""}><Link to="/about">About</Link></li>
-                            <li  className={path == "/services" ? styles.active: ""}><Link to="/services">Services</Link></li>
-                            <li  className={path == "/contact" ? styles.active: ""}><Link to="/contact">Contact</Link></li>
+                            <li className={path == "/" ? styles.active : ""}><Link to="/">Home</Link></li>
+                            <li className={path == "/services" ? styles.active : ""}><Link to="/services">Services</Link></li>
+                            <li className={path == "/about" ? styles.active : ""}><Link to="/about">About Us</Link></li>
+                            <li className={path == "/contact" ? styles.active : ""}><Link to="/contact">Contact Us</Link></li>
                         </ul>
                     </div>
                 </div>

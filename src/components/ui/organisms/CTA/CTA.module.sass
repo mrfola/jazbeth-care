@@ -1,0 +1,52 @@
+.CTA
+    padding: 80px 13.33%
+    background: #890E4F
+    display: flex
+    gap: 50px
+    justify-content: space-between
+    text-align: center
+
+    .content
+        .title
+            font-size: clamp(1.75rem, 4.5vw, 3rem)
+            font-weight: 700
+            color: white
+            line-height: 150%
+
+        .description
+            font-size: clamp(1rem, 2.75vw, 1.25rem)
+            font-weight: 500
+            color: white
+            line-height: 130%
+            margin-top: 15px
+    
+    .button
+        padding: 20px
+        background: white
+        color:  #890E4F
+        font-size: clamp(0.95rem, 2vw, 1.25rem)
+        line-height: 150%
+        font-weight: 700
+        height: fit-content
+        border-radius: 5px
+
+@media screen and (max-width: 1200px) 
+    .CTA
+        padding: 50px 8.33%
+
+@media screen and (max-width: 750px) 
+    .CTA
+        flex-wrap: wrap
+        justify-content: center
+        gap: 30px
+
+        .content
+            .title
+                text-align: center
+            .description
+                text-align: center
+                margin-top: 8px
+
+    
+        .button
+            margin: 0 auto

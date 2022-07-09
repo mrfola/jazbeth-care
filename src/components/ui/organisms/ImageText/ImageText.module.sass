@@ -1,0 +1,51 @@
+.imgAndText
+    margin-top: 80px
+    display: flex
+    gap: 80px
+
+    .image
+        width: 50%
+
+        img
+            width: 100%
+            height: auto
+
+    .text
+        width: 50%
+
+        .plainText
+            display: flex
+            gap: 23.15px
+
+            .content
+                font-size: 20px
+                font-weight: 600
+                line-height: 30px
+        .bullets
+            margin-top: 30px
+            
+            .bullet
+                display: flex
+                gap: 19.5px
+                font-size: 16px
+                font-weight: 600
+                margin: 15px 0
+                line-height: 25px
+            
+            .bullet:first-child
+                margin-top: 0
+            
+            .bullet:last-child
+                margin-bottom: 0
+
+@media screen and (max-width: 1000px) 
+    .imgAndText
+        margin-top: 40px
+        flex-direction: column!important
+        gap: 40px
+
+        .image
+            width: 100%
+
+        .text
+            width: 100%
