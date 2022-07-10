@@ -30,13 +30,13 @@ const TestimonialsNew = () =>
                 <div className={styles.innerImage}>
                     <div className={styles.firstTriangle}></div>
                     <img src={innerImg} alt="" />
-                    <div className={styles.secondTriangle}></div>
+                    {/* <div className={styles.secondTriangle}></div> */}
                 </div>
             </div>
             <div className={styles.content}>
                 <h3>Testimonial</h3>
                 <h2>Our wonderful clients say...</h2>
-                <div className={styles.swiperNavControls} id={styles.desktopNavControls}>
+                <div className={styles.swiperNavControls}>
                     <div className={styles.swiperNavControl} ref={navigationPrevRef}>{"<"}</div>
                     <div className={styles.swiperNavControl} ref={navigationNextRef}>{">"}</div>
                 </div>
@@ -126,10 +126,6 @@ const TestimonialsNew = () =>
                         />
                     </SwiperSlide>
                 </Swiper>
-                <div className={styles.swiperNavControls} id={styles.mobileNavControls}>
-                    <div className={styles.swiperNavControl} ref={navigationPrevRef}>{"<"}</div>
-                    <div className={styles.swiperNavControl} ref={navigationNextRef}>{">"}</div>
-                </div>
             </div>
         </div>
      );

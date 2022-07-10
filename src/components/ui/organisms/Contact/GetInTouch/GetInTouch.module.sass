@@ -1,0 +1,40 @@
+.getInTouch
+    .content
+        margin-top: 80px
+        display: flex
+        gap: 80px
+
+        .image
+            width: 50%
+
+            img
+                width: 100%
+                height: auto
+
+        .contacts
+            width: 50%
+            display: grid
+            grid-template-columns: 1fr
+            gap: 30px
+
+            .contact
+                display: flex
+                gap: 16px
+
+                .text
+                    font-size: 20px
+                    line-height: 30px
+                    font-weight: 600
+
+@media screen and (max-width: 1000px) 
+    .getInTouch
+        .content
+            margin-top: 40px
+            flex-direction: column!important
+            gap: 40px
+
+            .image
+                width: 100%
+
+            .contacts
+                width: 100%

@@ -1,7 +1,14 @@
 import HomeTemplate from "../../template/HomeTemplate/HomeTemplate";
-import styles from "./Home.module.sass";
+import { useEffect } from "react";
 
-const Home = () => {
+const Home = () => 
+{
+    useEffect(() => 
+    {
+        window.scrollTo(0, 0);
+
+    }, []);
+
     return ( 
         <HomeTemplate/>
      );
