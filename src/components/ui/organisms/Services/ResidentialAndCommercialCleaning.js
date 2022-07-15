@@ -1,10 +1,11 @@
-import homeCleaningImage from "./../../../../assets/icons/services/home-cleaning-image.png";
-import homeCleaningIcon from "./../../../../assets/icons/services/home-cleaning-icon.svg";
 import UniversalOrganism from "../UniversalOrganism/UniversalOrganism";
 import ImageText from "../ImageText/ImageText";
 
 const ResidentialAndCommercialCleaning = () => 
 {
+    let homeCleaningImage = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901967/jazbeth/icons/services/home-cleaning-image_fu12jb.png";
+    let homeCleaningIcon = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901967/jazbeth/icons/services/home-cleaning-icon_omxpdu.svg";
+
     let houseCleaningBullets = 
     [
         "Our thorough and professional cleaning leaves you with fresh, clean, and healthy indoor air.",

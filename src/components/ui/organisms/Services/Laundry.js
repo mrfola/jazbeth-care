@@ -1,10 +1,11 @@
-import laundryImage from "./../../../../assets/icons/services/laundry-image.png";
-import laundryIcon from "./../../../../assets/icons/services/laundry-icon.svg";
 import UniversalOrganism from "../UniversalOrganism/UniversalOrganism";
 import ImageText from "../ImageText/ImageText";
 
 const Laundry = () => 
 {
+
+    let laundryImage = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901968/jazbeth/icons/services/laundry-image_o3t5mu.png";
+    let laundryIcon = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901968/jazbeth/icons/services/laundry-icon_kbffeg.svg";
 
     let laundryBullets = 
     [

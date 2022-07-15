@@ -1,9 +1,10 @@
-import atYourServiceImage from "./../../../../assets/images/contact/at-your-service.png";
 import UniversalOrganism from "../UniversalOrganism/UniversalOrganism";
 import ImageText from "../ImageText/ImageText";
 
 const AtYourService = () => 
 {
+    let atYourServiceImage = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901972/jazbeth/images/contact/at-your-service_vkgyhp.png";
+
     let atYourServiceBullets = 
     [
         "Jazbeth Care Limited is all about efficiency, which includes our commitment to offering exceptional customer service.",

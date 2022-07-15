@@ -1,12 +1,13 @@
-import logo from './../../../../assets/icons/logo-white.svg';
 import styles from './Footer.module.sass';
 import { Link } from 'react-router-dom';
-import instagramIcon from "./../../../../assets/icons/instagram-icon.svg";
-import facebookIcon from "./../../../../assets/icons/facebook-icon.svg";
-import twitterIcon from "./../../../../assets/icons/twitter-icon.svg";
 
 const Footer = () => 
 {
+    let logo = 'https://res.cloudinary.com/dobmssrgt/image/upload/v1657901964/jazbeth/icons/logo-white_epl6ls.svg';
+    let instagramIcon = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901963/jazbeth/icons/instagram-icon_qmpxs7.svg";
+    let facebookIcon = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901958/jazbeth/icons/facebook-icon_rcvk3b.svg";
+    let twitterIcon = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901969/jazbeth/icons/twitter-icon_tgxknu.svg";
+
     return ( 
         <div className={styles.footer}>
             <div className={styles.footerContent}>

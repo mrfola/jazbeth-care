@@ -1,14 +1,14 @@
-
-import scheduleADateIcon from "./../../../../assets/icons/schedule-a-date-icon.svg";
-import letUsDeliverIcon from "./../../../../assets/icons/let-us-deliver.svg";
-import contactUsIcon from "./../../../../assets/icons/contact-us-icon.svg";
 import HowWeWorkCard from "../../molecules/HowWeWorkCard/HowWeWorkCard";
 import UniversalOrganism from "../UniversalOrganism/UniversalOrganism";
-import hireUsIcon from "./../../../../assets/icons/hire-us-icon.svg";
-
 import styles from "./HowWeWork.module.sass";
+
 const HowWeWork = () => 
 {
+    let scheduleADateIcon = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901966/jazbeth/icons/schedule-a-date-icon_kzpofm.svg";
+    let letUsDeliverIcon = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901962/jazbeth/icons/let-us-deliver_tick3u.svg";
+    let contactUsIcon = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901958/jazbeth/icons/contact-us-icon_ylpczx.svg";
+    let hireUsIcon = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901962/jazbeth/icons/hire-us-icon_fqdnke.svg";
+
     return ( 
         <UniversalOrganism secondClass={styles.howWeWork}>
             <h3>How We Work</h3>

@@ -1,10 +1,11 @@
-import upholsteryIcon from "./../../../../assets/icons/services/upholstery-icon.svg";
-import upholsteryImage from "./../../../../assets/images/upholstery-image.png";
 import UniversalOrganism from "../UniversalOrganism/UniversalOrganism";
 import ImageText from "../ImageText/ImageText";
 
 const UpholsteryCleaning = () => 
 {
+    let upholsteryIcon = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901968/jazbeth/icons/services/upholstery-icon_t2umpy.svg";
+    let upholsteryImage = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901962/jazbeth/images/upholstery-image_tpds78.png";
+
     let upholsteryBullets = 
     [
         "Professional rug cleaning is required because we understand how to extend the life of your carpet.",

@@ -1,5 +1,3 @@
-import cornerImg from "./../../../assets/images/about-hero-corner-image.png";
-import middleImg from "./../../../assets/images/about-hero-middle-image.png";
 import Hero from "../../ui/organisms/Hero/Hero";
 import WhoIsJazbeth from "../../ui/organisms/About/WhoIsJazbeth";
 import MeetTheFounder from "../../ui/organisms/About/MeetTheFounder";
@@ -9,6 +7,9 @@ import WhatWeBelieve from "../../ui/organisms/About/WhatWeBelieve";
 
 const AboutTemplate = () => 
 {
+    let cornerImg = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901972/jazbeth/images/about-hero-corner-image_i9azfr.png";
+    let middleImg = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901973/jazbeth/images/about-hero-middle-image_dnqzby.png";
+
     return ( 
         <>
             <Hero

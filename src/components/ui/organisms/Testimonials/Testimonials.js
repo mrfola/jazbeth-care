@@ -1,10 +1,11 @@
 import styles from "./Testimonials.module.sass";
-import firstImage from "./../../../../assets/images/testimonial-section-first-bg-image.png"
-import secondImage from "./../../../../assets/images/testimonial-section-second-bg-image.png"
 import GallerySlider from "../GallerySlider/GallerySlider";
 
 const Testimonials = () => 
 {
+    let firstImage = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901961/jazbeth/images/testimonial-section-first-bg-image_ozkxtd.png";
+    let secondImage = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901961/jazbeth/images/testimonial-section-second-bg-image_ymcls5.png";
+
     return ( 
          <div className={styles.testimonials}>
             <div className={styles.images}>

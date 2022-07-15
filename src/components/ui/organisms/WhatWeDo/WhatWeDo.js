@@ -1,7 +1,3 @@
-import fumigationServices from "./../../../../assets/icons/fumigation-services.svg";
-import laundryServices from "./../../../../assets/icons/laundry-services.svg";
-import upholsteryCleaning from "./../../../../assets/icons/upholstery-cleaning.svg";
-import residentialCleaning from "./../../../../assets/icons/residential-cleaning.svg";
 import UniversalOrganism from "../UniversalOrganism/UniversalOrganism";
 import ServiceCard from "../../molecules/ServiceCard/ServiceCard";
 import styles from "./WhatWeDo.module.sass";
@@ -9,6 +5,11 @@ import { Link } from "react-router-dom";
 
 const WhatWeDo = () => 
 {
+    let fumigationServices = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901962/jazbeth/icons/fumigation-services_ap4ibt.svg";
+    let laundryServices = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901963/jazbeth/icons/laundry-services_bucfcj.svg";
+    let upholsteryCleaning = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901969/jazbeth/icons/upholstery-cleaning_ruxx44.svg";
+    let residentialCleaning = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901966/jazbeth/icons/residential-cleaning_binioc.svg";
+
     return ( 
         <UniversalOrganism secondClass={styles.whatWeDo}>
             <h3>What We Do</h3>

@@ -1,12 +1,13 @@
 import CompetitiveAdvantage from "../../molecules/CompetitiveAdvantage/CompetitiveAdvantage";
-import reasonablePricingIcon from "./../../../../assets/icons/reasonable-pricing-icon.svg";
-import professionalStaffIcon from "./../../../../assets/icons/professional-staff-icon.svg";
-import swiftResponseIcon from "./../../../../assets/icons/swift-response-icon.svg";
 import UniversalOrganism from "../UniversalOrganism/UniversalOrganism";
 import styles from "./ServiceOffering.module.sass";
 
 const ServiceOffering = () => 
 {
+    let reasonablePricingIcon = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901965/jazbeth/icons/reasonable-pricing-icon_qpmye4.svg";
+    let professionalStaffIcon = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901964/jazbeth/icons/professional-staff-icon_hedczm.svg";
+    let swiftResponseIcon = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901968/jazbeth/icons/swift-response-icon_mmet6d.svg";
+
     return ( 
         <UniversalOrganism secondClass={styles.serviceOffering}>
             <h3>Why Us</h3>

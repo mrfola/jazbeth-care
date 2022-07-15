@@ -1,13 +1,14 @@
-import getInTouchImage from "./../../../../../assets/images/contact/get-in-touch.png";
-import workingHoursIcon from "./../../../../../assets/icons/working-hours-icon.svg";
-import locationIcon from "./../../../../../assets/icons/location-icon.svg";
 import UniversalOrganism from "../../UniversalOrganism/UniversalOrganism";
-import emailIcon from "./../../../../../assets/icons/email-icon.svg";
-import callIcon from "./../../../../../assets/icons/call-icon.svg";
 import styles from "./GetInTouch.module.sass";
 
 const GetInTouch = () => 
 {
+    let getInTouchImage = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901971/jazbeth/images/contact/get-in-touch_motor2.png";
+    let workingHoursIcon = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901970/jazbeth/icons/working-hours-icon_wm0ss3.svg";
+    let locationIcon = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901962/jazbeth/icons/location-icon_suhdwk.svg";
+    let emailIcon = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901960/jazbeth/icons/email-icon_zxobky.svg";
+    let callIcon = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901961/jazbeth/icons/call-icon_kmcpsc.svg";
+
     return ( 
         <UniversalOrganism secondClass={styles.getInTouch}>
             <h3>Contact Us</h3>

@@ -1,8 +1,9 @@
 import styles from "./SingleSlide.module.sass";
-import quotationMark from "./../../../../assets/icons/quotation-mark.svg";
 
 const SingleSlide = ({name, title, testimonial, img}) => 
 {
+    let quotationMark = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901965/jazbeth/icons/quotation-mark_oihohn.svg";
+
     return ( 
         <div className={styles.singleSlide}>
             <div className={styles.nameImageTitle}>

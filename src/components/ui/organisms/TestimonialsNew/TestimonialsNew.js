@@ -1,9 +1,6 @@
-import image1 from './../../../../assets/images/testimonials/image1.png';
 import styles from "./TestimonialsNew.module.sass";
 import React, { useRef, useState } from "react";
 import SingleSlide from '../../molecules/SingleSlide/SingleSlide';
-import cornerImg from "./../../../../assets/images/testimonial-section-first-bg-image.png";
-import innerImg from "./../../../../assets/images/testimonial-section-second-bg-image.png";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -20,6 +17,10 @@ const TestimonialsNew = () =>
 {
     const navigationPrevRef = useRef(null);
     const navigationNextRef = useRef(null);
+
+    let image1 = 'https://res.cloudinary.com/dobmssrgt/image/upload/v1657901960/jazbeth/images/testimonials/image1_htpqgy.png';
+    let cornerImg = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901961/jazbeth/images/testimonial-section-first-bg-image_ozkxtd.png";
+    let innerImg = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901961/jazbeth/images/testimonial-section-second-bg-image_ymcls5.png";
 
     return ( 
         <div className={styles.testimonialsNew}>

@@ -1,10 +1,11 @@
 import styles from "./Header.module.sass";
 import { Link, useLocation } from "react-router-dom";
-import logo from './../../../../assets/icons/logo.svg';
 import { useRef, useCallback, useEffect, useState } from "react";
 
 const Header = () => 
 {
+    let logo = 'https://res.cloudinary.com/dobmssrgt/image/upload/v1657901964/jazbeth/icons/logo_nw6ivg.svg';
+
     const location = useLocation();
     const path = location.pathname;
 

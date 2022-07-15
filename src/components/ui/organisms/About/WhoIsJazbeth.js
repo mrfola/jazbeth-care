@@ -1,8 +1,10 @@
 import UniversalOrganism from "../UniversalOrganism/UniversalOrganism";
-import whoIsJazbethImage from "./../../../../assets/images/about/who-is-jazbeth.png";
 import ImageText from "../ImageText/ImageText";
 
-const WhoIsJazbeth = () => {
+const WhoIsJazbeth = () => 
+{
+    let whoIsJazbethImage = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901972/jazbeth/images/about/who-is-jazbeth_b3udbd.png";
+
     return ( 
         <UniversalOrganism>
             <h3>About Us</h3>

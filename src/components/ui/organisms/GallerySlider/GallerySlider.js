@@ -1,4 +1,3 @@
-import image1 from './../../../../assets/images/testimonials/image1.png';
 import { Swiper, SwiperSlide } from "swiper/react";// Import Swiper React components
 import styles from './GallerySlider.module.sass';
 import React, { useRef } from "react";
@@ -11,6 +10,8 @@ import SingleSlide from '../../molecules/SingleSlide/SingleSlide';
 
 const GallerySlider = () =>
 {
+    const image1 = 'https://res.cloudinary.com/dobmssrgt/image/upload/v1657901960/jazbeth/images/testimonials/image1_htpqgy.png';
+
     const navigationPrevRef = useRef(null);
     const navigationNextRef = useRef(null);
 

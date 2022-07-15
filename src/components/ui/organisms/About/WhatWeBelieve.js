@@ -1,9 +1,11 @@
 import UniversalOrganism from "../UniversalOrganism/UniversalOrganism";
-import whatWeBelieveImage from "./../../../../assets/images/about/what-we-believe.png";
 import ImageText from "../ImageText/ImageText";
 
 const WhatWeBelieve = () => 
 {
+
+    let whatWeBelieveImage = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901971/jazbeth/images/about/what-we-believe_s9imt8.png";
+
     let whatWeBelieveBullets = 
     [
         "We are thrilled to have a fantastic team of bright, creative, and hardworking individuals on our team.",

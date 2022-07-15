@@ -1,10 +1,11 @@
-import fumigationImage from "./../../../../assets/icons/services/fumigation-image.png";
-import fumigationIcon from "./../../../../assets/icons/services/fumigation-icon.svg";
 import UniversalOrganism from "../UniversalOrganism/UniversalOrganism";
 import ImageText from "../ImageText/ImageText";
 
 const Fumigation = () =>
 {
+    let fumigationImage = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901967/jazbeth/icons/services/fumigation-image_tc7jmh.png";
+    let fumigationIcon = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901966/jazbeth/icons/services/fumigation-icon_a8nwnz.svg";
+
     let fumigationBullets = 
     [
         "Fumigation is the only technique to kill the entire infestation from the root in order to prevent termites in the future.",

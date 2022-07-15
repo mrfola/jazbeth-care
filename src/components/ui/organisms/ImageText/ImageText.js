@@ -1,9 +1,11 @@
-import checkIcon from "./../../../../assets/icons/check-icon.svg";
 import styles from "./ImageText.module.sass";
 import {v4 as uuidv4} from "uuid";
 
 const ImageText = ({icon=null, mainText, bullets=null, image, flipImage=null}) => 
 {
+
+    let checkIcon = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901958/jazbeth/icons/check-icon_dsxod6.svg";
+
     let style={}
     if(flipImage)
     {

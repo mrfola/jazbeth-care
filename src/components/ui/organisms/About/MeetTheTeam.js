@@ -1,9 +1,10 @@
 import UniversalOrganism from "../UniversalOrganism/UniversalOrganism";
-import meetTheTeamImage from "./../../../../assets/images/about/meet-the-team.png";
 import ImageText from "../ImageText/ImageText";
 
 const MeetTheTeam = () => 
 {
+    let meetTheTeamImage = "https://res.cloudinary.com/dobmssrgt/image/upload/v1657901970/jazbeth/images/about/meet-the-team_ms2p4y.png";
+
     return ( 
         <UniversalOrganism>
         <h3>About Us</h3>
