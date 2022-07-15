@@ -17,9 +17,7 @@ const WhatWeBelieve = () =>
         <h2>What We Believe In</h2>
 
         <ImageText
-            mainText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut viverra diam tellus id velit nunc,
-             turpis dui commodo. A mattis sit in nisl. Vivamus felis egestas dui sit morbi a risus volutpat.
-              Ut adipiscing neque, nibh maecenas vitae. Id."
+            mainText="Our goal is to keep the environment clean. We believe that true riches is health rather than gold and silver coins. We are determined to go above and above in order to preserve our globe as clean as possible."
             image={whatWeBelieveImage}
             bullets={whatWeBelieveBullets}
         />

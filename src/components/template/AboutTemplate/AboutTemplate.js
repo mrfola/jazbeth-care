@@ -13,15 +13,14 @@ const AboutTemplate = () =>
         <>
             <Hero
                 heading="Our reputation is spotless"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae morbi fermentum nulla massa lobortis massa, 
-                feugiat in pellentesque. Sit vestibulum ornare duis orci pellentesque amet, non."
+                description="We have years of experience on the job, and we have a long list of testimonials to back up our claims."
                 cornerImg={cornerImg}
                 middleImg={middleImg}
             />
             <WhoIsJazbeth/>
             <MeetTheFounder/>
             <CTA/>
-            <MeetTheTeam/>
+            {/* <MeetTheTeam/> */}
             <WhatWeBelieve/>
         </>
         

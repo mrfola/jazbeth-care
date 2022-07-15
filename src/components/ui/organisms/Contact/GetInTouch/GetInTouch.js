@@ -22,7 +22,7 @@ const GetInTouch = () =>
                             <img src={locationIcon} alt="" />
                         </div>
                         <div className={styles.text}>
-                        Lagos Branch: 44a Salaudeen Akano, Ogudu gra.Ibadan Branch:  9 Jibowu Crescent, Iyaganku GRA, Ibadan
+                        Lagos Branch: 44a Salaudeen Akano, Ogudu gra. <br/>Ibadan Branch:  9 Jibowu Crescent, Iyaganku GRA, Ibadan
                         </div>
                     </div>
                     <div className={styles.contact}>

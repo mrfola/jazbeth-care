@@ -13,8 +13,7 @@ const Footer = () =>
                 <div className={styles.addressAndLogo}>
                     <img src={logo} />
                     <p className={styles.address}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ac lectus quam mauris erat a sem. Hendrerit eu non facilisis commodo quam leo nibh.
-                    </p>
+                    We not only provide services to residential, industrial, and commercial establishments, but we also manufacture cleaning materials and provide necessary cleaning accessories.                    </p>
                 </div>
                 <div className={styles.company}>
                     <h3>Company</h3>

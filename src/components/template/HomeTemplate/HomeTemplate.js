@@ -16,8 +16,7 @@ const HomeTemplate = () =>
         <>
             <Hero
                 heading="We Bring Spotless To Your Front Door"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae morbi fermentum nulla massa lobortis massa, 
-                feugiat in pellentesque. Sit vestibulum ornare duis orci pellentesque amet, non."
+                description="Excellence is our habit as we turn every spot in your homes or offices to be spotless. All you need is sit back and relax while we work our magic!"
                 cornerImg={cornerImg}
                 middleImg={middleImg}
             />

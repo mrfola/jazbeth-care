@@ -1,11 +1,12 @@
 import styles from "./Header.module.sass";
-import { Link, useParams } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import logo from './../../../../assets/icons/logo.svg';
 import { useRef, useCallback, useEffect, useState } from "react";
 
 const Header = () => 
 {
-    const [path, setPath] = useState(document.location.pathname)
+    const location = useLocation();
+    const path = location.pathname;
 
     const modalRef = useRef(null);
 
@@ -26,8 +27,6 @@ const Header = () =>
 
     useEffect(() => 
     {
-        // setPath(document.location.pathname);
-
         const modalNode = modalRef.current;
 
         (mobileMenuOpen) ? modalNode.showModal() : modalNode.close();

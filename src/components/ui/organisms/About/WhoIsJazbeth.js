@@ -9,15 +9,13 @@ const WhoIsJazbeth = () => {
             <h2>Who is Jabeth Care Limited? </h2>
 
             <ImageText
-                mainText="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis consectetur
-                 diam cras sem ut. Habitant non eu, cursus enim, diam sagittis sit tortor magna. Mauris egestas 
-                 proin ullamcorper elementum est sit facilisis. Odio vitae quis cras in facilisis vulputate enim. 
-                 Sagittis elit porttitor lorem aliquet. Faucibus condimentum cras a tortor duis tristique. Leo ornare
-                  malesuada donec duis imperdiet vitae. At justo nulla nunc, mauris. Cras purus neque vulputate diam 
-                  aliquet nec. Nisl, sapien, scelerisque et senectus ultricies aliquet sapien, vulputate in. Non dolor
-                   sodales velit diam suscipit ultrices interdum cursus. Nulla semper et et tempor in viverra morbi integer
-                    dignissim. Tempor, orci malesuada in a quam a condimentum dui risus. Dictum pulvinar vestibulum blandit
-                     sed massa rutrum id ac cursus."
+                mainText={<p>Jazbeth Care is Limited is a company dedicated to meeting the needs and aspirations of people, 
+                    organizations such as hotels, facility management companies (both industrial and residential), and individuals 
+                    in maintaining a healthy and clean environment. <br/><br/> We not only provide services to residential, industrial, 
+                    and commercial establishments, but we also manufacture cleaning materials and provide necessary cleaning accessories.
+                    <br/><br/> With Jazbeth Care, you will no longer have to bother about cleaning your surroundings, fumigation, or purchasing 
+                    cleaning supplies since we will do all of that for you.</p>}
+                                
                 image={whoIsJazbethImage}
             />
         </UniversalOrganism>

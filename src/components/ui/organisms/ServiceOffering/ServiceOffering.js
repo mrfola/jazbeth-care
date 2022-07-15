@@ -16,17 +16,17 @@ const ServiceOffering = () =>
                 <CompetitiveAdvantage
                     icon={reasonablePricingIcon}
                     title="Reasonable Pricing"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    description="Our services are reasonable and can be afforded by any social class of the nation. We are open to negotiations as well."
                 />
                 <CompetitiveAdvantage
                     icon={swiftResponseIcon}
                     title="Swift Response"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    description="We take pleasure in the speed with which we respond to our valued customers. Our customer service is the best in the business."
                 />
                 <CompetitiveAdvantage
                     icon={professionalStaffIcon}
                     title="Professional Staff"
-                    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                    description="Our crew is highly trained and tested, and they make certain that each customer's vision for their property is accomplished."
                 />
             </div>
           

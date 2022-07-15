@@ -14,8 +14,7 @@ const ServicesTemplate = () =>
         <div className={styles.servicesTemplate}>
             <Hero
                 heading="Our Services Bespeaks Quality!"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae morbi fermentum nulla massa lobortis massa, 
-                feugiat in pellentesque. Sit vestibulum ornare duis orci pellentesque amet, non."
+                description="Every client needs a clean environment. One call, our healthy and trustworthy squad will be at your doorstep to deliver quality to you."
                 cornerImg={cornerImg}
                 middleImg={middleImg}
             />
