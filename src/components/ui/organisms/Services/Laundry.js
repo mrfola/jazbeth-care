@@ -9,7 +9,7 @@ const Laundry = () =>
 
     let laundryBullets = 
     [
-        "You need a chill pill after the entire stress of the day. Jazbeth will care for your clothes, you’d wish you were a shirt.",
+        "You need a breather after the entire stress of the day. Jazbeth will care for your clothes, you’d wish you were a shirt.",
         " This eliminates the time and effort connected with doing your own laundryall at a very affordable rate.",
         "Our wash process is fast, effective and ensures that your clothes are gently washed, stains are eradicated, and your garments are returned to you in beautiful shape."
     ];
