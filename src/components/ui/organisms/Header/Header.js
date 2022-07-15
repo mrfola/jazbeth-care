@@ -16,7 +16,14 @@ const Header = () =>
 
     const handleHamburgerClick = () => 
     {
-        mobileMenuOpen ? setMobileMenuOpen(false) : setMobileMenuOpen(true);
+        if(mobileMenuOpen)
+        {   
+            setMobileMenuOpen(false);
+            modalRef.current.close();
+        }else 
+        {
+            setMobileMenuOpen(true);
+        }
     }
 
     const escFunction = useCallback((event) => 
@@ -30,12 +37,23 @@ const Header = () =>
     {
         const modalNode = modalRef.current;
 
-        (mobileMenuOpen) ? modalNode.showModal() : modalNode.close();
+        if(mobileMenuOpen)
+        {
+            modalNode.removeAttribute('open');
+            modalNode.showModal();
+
+         }else 
+         {
+            modalNode.close();
+         }
 
         document.addEventListener("keydown", escFunction, false);
 
-        return () =>   document.removeEventListener("keydown", escFunction, false);
-    });
+        return () =>   
+        {
+            document.removeEventListener("keydown", escFunction, false);
+        }
+    }, [mobileMenuOpen]);
 
     return ( 
         <div className={styles.header}>

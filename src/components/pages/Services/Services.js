@@ -1,5 +1,6 @@
 import ServicesTemplate from "../../template/ServicesTemplate/ServicesTemplate"
 import { useEffect } from "react";
+import Header from "../../ui/organisms/Header/Header";
 
 
 const Services = () => 
@@ -11,7 +12,10 @@ const Services = () =>
     }, []);
 
     return ( 
-        <ServicesTemplate/>
+        <>
+            <Header/>
+            <ServicesTemplate/>
+        </>
      );
 }
  

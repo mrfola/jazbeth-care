@@ -1,5 +1,6 @@
 import ContactTemplate from "../../template/ContactTemplate/ContactTemplate";
 import { useEffect } from "react";
+import Header from "../../ui/organisms/Header/Header";
 
 const Contact = () => 
 {
@@ -10,7 +11,10 @@ const Contact = () =>
     }, []);
 
     return ( 
-        <ContactTemplate/>
+        <>
+            <Header/>
+            <ContactTemplate/>  
+        </>
      );
 }
  

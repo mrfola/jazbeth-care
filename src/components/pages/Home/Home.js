@@ -1,5 +1,6 @@
 import HomeTemplate from "../../template/HomeTemplate/HomeTemplate";
 import { useEffect } from "react";
+import Header from "../../ui/organisms/Header/Header";
 
 const Home = () => 
 {
@@ -10,7 +11,11 @@ const Home = () =>
     }, []);
 
     return ( 
-        <HomeTemplate/>
+        <>
+            <Header/>
+            <HomeTemplate/>
+
+        </>
      );
 }
  
